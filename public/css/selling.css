@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+     align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.invoice-header h2 {
+    font-size: 24px;
+}
+
+.invoice-header p {
+    font-size: 14px;
+    color: #666;
+}
+.imgs{
+    width: 45px;
+}
+.invoice-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.customer-info,
+.inventory-info,
+.total-summary {
+    margin-bottom: 20px;
+}
+
+.customer-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inventory-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.inventory-info th,
+.inventory-info td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.inventory-info select,
+.inventory-info input {
+    width: 100%;
+    padding: 5px;
+}
+
+.add-btn,
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.total-summary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.save-btn {
+    text-align: center;
+    display: flex;
+    justify-content: space-around
+
+}
+
+.save-btn button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pro_img{
+    width: 40px;
+}
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+ }
+ .view{
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px;
+ }
+ .view a{
+    width: 200px;
+    text-align: right;
+    margin-left: auto;
+    background-color: #28a745;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+ }

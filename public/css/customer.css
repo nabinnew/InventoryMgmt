@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);  }
+.customer-dtls {
+     padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.customer-dtls div {
+    margin: 10px 15px;
+    min-width: 263px;
+    padding: 4px;
+}
+
+.customer-dtls div label {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.customer-dtls div input ,select{
+    outline: 1px solid;
+    min-width: 200px;
+    min-height: 20px;
+    border-radius: 6px;
+    padding: 1px 8px;
+    float: right;
+}
+.card{
+    background-color: transparent;
+    filter: blur(-2px);
+    box-shadow: 2px 3px 5px black;
+    border-radius: 8px;
+}
+#customer-forms{
+    border: 2px solid black;
+}
+.cus-add-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.cus-add-buttons button{
+    width: 95px;
+    height: 30px;
+    min-width: 60px;
+    min-height: 20px;
+    font-weight: bold;
+    background-color: #AF9F9F;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 95px;
+    height: 30px;
+    min-width: 60px;
+    min-height: 20px;
+    font-weight: bold;
+    background-color: #AF9F9F;
+    border-radius:5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+/* .....table css................ */
+ 
+.container {
+         /* nabin */
+
+    padding: 20px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+table {
+    border-radius: 10px;
+    width: 95%;
+    border-collapse: collapse;
+    background-color: #fff;
+
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+}
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px;
+    }
+}
+.btn {
+    padding-top: 5px;
+    text-align: center;
+    width: 95px;
+    height: 28px;
+    min-width: 60px;
+    min-height: 20px;
+    font-weight: bold;
+    background-color: #AF9F9F;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ .delete{
+    background-color: rgb(243, 88, 88);
+    color: black;
+    padding: 1px 7px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+ .update{
+    background-color: rgb(84, 194, 84);
+    color: black;
+    padding: 1px 7px;
+    border-radius: 9px;
+    text-decoration: none;
+}

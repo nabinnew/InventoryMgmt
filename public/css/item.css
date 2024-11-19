@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);      
+}
+#select{
+width: 183px;
+height: 26px;
+text-align: center;
+}
+.item-box{
+    background-color: transparent;
+    filter: blur(-2px);
+    box-shadow: 2px 3px 5px black;
+    border-radius: 8px;
+    margin: 5px 33px;
+ }
+ 
+@media (max-width: 600px) {
+    .container div {
+        min-width: 100%;
+    }
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: space-evenly;
+margin: 3px 0px;
+}
+#desc {
+    min-width:309px;
+    height: 167px;
+}
+
+  .left{
+     width: 260px;
+     box-sizing: border-box;
+ 
+}
+.left div, .right div{
+    margin: 19px;
+      padding: 10px;
+}
+.left div input, .right div input{
+    outline: 1px solid;
+     border-radius: 3px;
+
+}
+  .right{
+    width: 260px;
+    padding: 20px;
+   box-sizing: border-box;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border-radius: 10px;
+     
+    padding: 10px 5px;
+
+}
+
+.middle .button{
+     height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;  
+  }
+.item-add-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.item-add-buttons button{
+    width: 95px;
+    height: 30px;
+    min-width: 60px;
+    min-height: 20px;
+    font-weight: bold;
+    background-color: #AF9F9F;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 85px;
+}
+/* ...........table............ */
+.container {
+    padding: 20px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+}
+@media (max-width: 600px) {
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media(max-width: 400px){
+  #desc{
+    width: 281px;
+  }
+}
+@media(max-width: 895px){
+    #desc{
+        width: 281px;
+      }
+}
+.delete{
+    background-color: rgb(243, 88, 88);
+    color: black;
+    padding: 1px 7px;
+    border-radius: 9px;
+    text-decoration: none;
+}
+ .update{
+    background-color: rgb(84, 194, 84);
+    color: black;
+    padding: 1px 7px;
+    border-radius: 9px;
+    text-decoration: none;
+}
